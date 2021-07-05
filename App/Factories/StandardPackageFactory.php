@@ -4,18 +4,22 @@
 namespace App\Factories;
 
 
+use App\Interfaces\ClassicBackgroundInterface;
+use App\Interfaces\ProBackgroundInterface;
 use App\Interfaces\UserPackageFactoryInterface;
+use App\UI\ClassicBackground;
+use App\UI\ProBackground;
 
 class StandardPackageFactory implements UserPackageFactoryInterface
 {
 
-    public function connectClassicBackground()
+    public function connectClassicBackground(): ClassicBackgroundInterface
     {
-        // TODO: Implement connectClassicBackground() method.
+        return new ClassicBackground;
     }
 
-    public function connectProBackground()
+    public function connectProBackground(): ProBackgroundInterface
     {
-        // TODO: Implement connectProBackground() method.
+        return new ProBackground;
     }
 }
