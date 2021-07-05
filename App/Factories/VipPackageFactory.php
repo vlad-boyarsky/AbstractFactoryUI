@@ -4,7 +4,18 @@
 namespace App\Factories;
 
 
-class VipPackageFactory
+use App\Interfaces\UserPackageFactoryInterface;
+
+class VipPackageFactory implements UserPackageFactoryInterface
 {
 
+    public function connectClassicBackground()
+    {
+        // TODO: Implement connectClassicBackground() method.
+    }
+
+    public function connectProBackground()
+    {
+        // TODO: Implement connectProBackground() method.
+    }
 }
