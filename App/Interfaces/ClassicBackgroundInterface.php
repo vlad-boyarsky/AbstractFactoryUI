@@ -6,5 +6,5 @@ namespace App\Interfaces;
 
 interface ClassicBackgroundInterface
 {
-    public function connect();
+    public function connect(): string;
 }

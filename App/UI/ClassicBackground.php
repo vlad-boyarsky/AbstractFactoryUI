@@ -8,8 +8,8 @@ use App\Interfaces\ClassicBackgroundInterface;
 
 class ClassicBackground implements ClassicBackgroundInterface
 {
-    public function connect()
+    public function connect(): string
     {
-        // TODO: Implement connect() method.
+        return 'classic bg';
     }
 }

@@ -10,11 +10,8 @@ use App\Interfaces\UserPackageFactoryInterface;
 class UserPackageFactory
 {
 
-    private UserPackageFactoryInterface $factory;
-
     public function getPackageFactory($selected): UserPackageFactoryInterface
     {
-        $factory = $this->factory;
 
         switch ($selected) {
             case 'standard':

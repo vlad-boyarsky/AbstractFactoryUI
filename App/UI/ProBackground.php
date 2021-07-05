@@ -8,8 +8,8 @@ use App\Interfaces\ProBackgroundInterface;
 
 class ProBackground implements ProBackgroundInterface
 {
-    public function connect()
+    public function connect(): string
     {
-        // TODO: Implement connect() method.
+        return 'pro bg';
     }
 }
