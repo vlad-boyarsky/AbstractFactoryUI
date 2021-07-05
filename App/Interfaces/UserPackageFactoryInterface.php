@@ -6,7 +6,7 @@ namespace App\Interfaces;
 
 interface UserPackageFactoryInterface
 {
-    public function connectVipUI();
+    public function connectClassicBackground();
 
-    public function connectStandardUI();
+    public function connectProBackground();
 }
