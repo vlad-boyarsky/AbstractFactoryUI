@@ -27,6 +27,7 @@ $connectUI = $connectPro->connect();
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>UI User Theme</title>
 </head>
 
