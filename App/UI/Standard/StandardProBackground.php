@@ -4,7 +4,7 @@ namespace App\UI;
 
 use App\Interfaces\ProBackgroundInterface;
 
-class ProBackground implements ProBackgroundInterface
+class StandardProBackground implements ProBackgroundInterface
 {
     public function connect(): string
     {
