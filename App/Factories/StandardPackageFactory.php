@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Factories;
 
 use App\Interfaces\ClassicBackgroundInterface;
@@ -14,11 +13,13 @@ class StandardPackageFactory implements UserPackageFactoryInterface
 
     public function connectClassicBackground(): ClassicBackgroundInterface
     {
+        echo __CLASS__ . "<br/>";
         return new ClassicBackground;
     }
 
     public function connectProBackground(): ProBackgroundInterface
     {
+        echo __CLASS__ . "<br/>";
         return new ProBackground;
     }
 }

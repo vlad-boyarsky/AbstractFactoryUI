@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\UI;
-
 
 use App\Interfaces\ClassicBackgroundInterface;
 
