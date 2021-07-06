@@ -1,6 +1,6 @@
 <?php
 
-namespace App\UI;
+namespace App\UI\Standard;
 
 use App\Interfaces\ClassicBackgroundInterface;
 
@@ -8,6 +8,6 @@ class StandardClassicBackground implements ClassicBackgroundInterface
 {
     public function connect(): string
     {
-        return 'classic bg';
+        return 'background: wheat';
     }
 }

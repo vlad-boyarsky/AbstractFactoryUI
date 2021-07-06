@@ -5,8 +5,8 @@ namespace App\Factories;
 use App\Interfaces\ClassicBackgroundInterface;
 use App\Interfaces\ProBackgroundInterface;
 use App\Interfaces\UserPackageFactoryInterface;
-use App\UI\StandardClassicBackground;
-use App\UI\StandardProBackground;
+use App\UI\Vip\VipClassicBackground;
+use App\UI\Vip\VipProBackground;
 
 class VipPackageFactory implements UserPackageFactoryInterface
 {
@@ -14,12 +14,12 @@ class VipPackageFactory implements UserPackageFactoryInterface
     public function connectClassicBackground(): ClassicBackgroundInterface
     {
         echo __CLASS__ . "<br/>";
-        return new StandardClassicBackground;
+        return new VipClassicBackground;
     }
 
     public function connectProBackground(): ProBackgroundInterface
     {
         echo __CLASS__ . "<br/>";
-        return new StandardProBackground;
+        return new VipProBackground;
     }
 }

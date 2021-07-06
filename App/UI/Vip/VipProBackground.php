@@ -1,6 +1,6 @@
 <?php
 
-namespace App\UI;
+namespace App\UI\Vip;
 
 use App\Interfaces\ProBackgroundInterface;
 

@@ -5,8 +5,8 @@ namespace App\Factories;
 use App\Interfaces\ClassicBackgroundInterface;
 use App\Interfaces\ProBackgroundInterface;
 use App\Interfaces\UserPackageFactoryInterface;
-use App\UI\StandardClassicBackground;
-use App\UI\StandardProBackground;
+use App\UI\Standard\StandardClassicBackground;
+use App\UI\Standard\StandardProBackground;
 
 class StandardPackageFactory implements UserPackageFactoryInterface
 {
