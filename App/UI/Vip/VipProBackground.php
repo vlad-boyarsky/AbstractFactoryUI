@@ -8,6 +8,6 @@ class VipProBackground implements ProBackgroundInterface
 {
     public function connect(): string
     {
-        return 'pro bg';
+        return 'background: url(../assets/img/vip-pro-background.jpg)';
     }
 }

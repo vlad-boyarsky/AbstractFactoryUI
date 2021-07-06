@@ -13,13 +13,11 @@ class VipPackageFactory implements UserPackageFactoryInterface
 
     public function connectClassicBackground(): ClassicBackgroundInterface
     {
-        echo __CLASS__ . "<br/>";
         return new VipClassicBackground;
     }
 
     public function connectProBackground(): ProBackgroundInterface
     {
-        echo __CLASS__ . "<br/>";
         return new VipProBackground;
     }
 }

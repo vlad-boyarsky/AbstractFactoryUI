@@ -13,13 +13,11 @@ class StandardPackageFactory implements UserPackageFactoryInterface
 
     public function connectClassicBackground(): ClassicBackgroundInterface
     {
-        echo __CLASS__ . "<br/>";
         return new StandardClassicBackground;
     }
 
     public function connectProBackground(): ProBackgroundInterface
     {
-        echo __CLASS__ . "<br/>";
         return new StandardProBackground;
     }
 }

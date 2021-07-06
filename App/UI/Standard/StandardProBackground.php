@@ -8,6 +8,6 @@ class StandardProBackground implements ProBackgroundInterface
 {
     public function connect(): string
     {
-        return 'pro bg';
+        return 'background: url(../assets/img/standard-pro-background.jpg)';
     }
 }
